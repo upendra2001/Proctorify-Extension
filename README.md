@@ -6,7 +6,7 @@ Steps to use this extension
 1) Download the zip file from Code section
 2) Extract the zip file from your downloads
 3) Open chrome://extensions/ in your chrome browser
-4) Enable the developer mode frome there
+4) Enable the developer mode in the right corner
 5) Click on Load Unpacked and choose the extracted folder
 6) Your extension is successfully loaded in your browser
 7) Click on the extension and fill the form and start your test 
