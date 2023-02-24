@@ -11,4 +11,4 @@ Steps to use this extension
 6) Your extension is successfully loaded in your browser
 7) Click on the extension and fill the form and start your test 
 8) After starting a popup will open asking for your camera
-9) Give permission to it and by accepting it and click on Start
+9) Give permission to it by clicking on accept and then click on Start
