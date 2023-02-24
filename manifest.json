@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Proctor",
+    "description": "It is a extension for fetching user info and video proctoring",
+    "version": "1.0",
+    "host_permissions": [
+        "http://localhost:8000/*"
+    ],
+    "background":{
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+          "js": [
+            "contentscript.js"
+          ],
+          "matches": [
+            "https://*/*"
+          ]
+        }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

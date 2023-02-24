@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:8000/users" method="POST">
+        <h3>Enter Details</h3>
+        <label>First Name:</label>
+        <input type="text" id="fname" class="form-input" name="firstname" required>      <!--never miss name in inputs-->
+        <label>Last Name:</label>
+        <input type="text" id="lname" class="form-input" name="lastname">
+        <label>Email:</label>
+        <input type="email" id="email" class="form-input" name="email" required>
+        <label>Phone:</label>
+        <input type="text" id="phone" class="form-input" name="phone" >
+        <button type="submit" class="btn btn-success" id="startTest">
+                Start Test
+        </button>
+    </form>
+
+    <script src="popup.js"></script>
+</body>
+</html>
