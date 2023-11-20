@@ -1,4 +1,4 @@
-# Proctor
+# Proctorify Extension
 This is a chrome extension which is used to proctor by accessing camera of the person and sending the screenshot to the Admin portal.
 
 Steps to use this extension
